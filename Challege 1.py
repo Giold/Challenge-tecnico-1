@@ -12,7 +12,8 @@ tiempo = 24
 
 v = (((math.pi*2)*(6371))*Latitud1cos)/24
 v1 = (((math.pi*2)*(6371))*Latitud2cos)/24
-v2= math.cos(19.43)
 
-print(v,v1,v2)
+
+print(v)
+print(v1)
  
