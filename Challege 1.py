@@ -16,5 +16,5 @@ v = (((math.pi*2)*(6371))*Latitud1cos)/tiempo
 v1 = (((math.pi*2)*(6371))*Latitud2cos)/tiempo
 
 
-print(v + " Km/H")
-print(v1 + " Km/H") 
+print(v , 'km/h')
+print(v1 , 'km/h') 
