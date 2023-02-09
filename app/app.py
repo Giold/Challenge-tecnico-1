@@ -20,6 +20,14 @@ def index():
     
     return render_template('index.html', data=data)
 
+@app.route('/contacto/<nombre>')
+def contacto(nombre):
+    data={
+        'titulo':'Contacto',
+        'nombre':nombre
+    }
+    return render_template('contacto.html', data=data)
+
 ##Dato para abrir el servidor con el puerto
 if __name__== '__main__':
     app.run(debug=True, port=5000)
